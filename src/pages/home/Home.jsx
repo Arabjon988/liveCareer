@@ -1,12 +1,21 @@
-import React from 'react'
-import Resume from '../resume/Resume'
+import React from "react";
+// Components
+import Hero from "../../components/hero/Hero";
+import Product from "../../components/product/Product";
+import Rek from "../../components/rek/Rek";
+import Text from "../../components/text/Text";
+import Free from "../../components/free/Free";
 
 const Home = () => {
   return (
-    <div className='home'>
-       <Resume />
+    <div>
+      <Hero />
+      <Rek />
+      <Text />
+      <Product />
+      <Free />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
